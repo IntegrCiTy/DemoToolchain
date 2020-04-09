@@ -1,1 +1,12 @@
+# ignore Python notebook checkpoints
 */.ipynb_checkpoints
+*/*/.ipynb_checkpoints/
+
+# ignore file created by ZerOBNL
+3_simulate/TMP_FOLDER/
+3_simulate/*.log
+3_simulate/*.pkl
+
+
+# ignore Emacs backup files
+*~

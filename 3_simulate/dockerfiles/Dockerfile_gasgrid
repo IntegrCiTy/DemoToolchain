@@ -1,0 +1,17 @@
+FROM python:3.6
+
+# The next two lines will install extra packages on Debian-based images.
+# These extra packages are required to build Python package "scipy".
+RUN apt-get update
+RUN /bin/bash -c 'if [[ `uname -a` == *"Debian"* ]]; then apt-get install -y gfortran libblas-dev liblapack-dev; fi'
+
+RUN pip install --upgrade pip
+RUN pip install git+https://github.com/IntegrCiTy/zerobnl@v1.0
+RUN pip install git+https://github.com/ewidl/PandaNGas
+RUN pip install git+https://github.com/ewidl/PandaThermal
+RUN pip install git+https://github.com/IntegrCiTy/dblayer
+
+WORKDIR /code
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENTRYPOINT ["python"]
