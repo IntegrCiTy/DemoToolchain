@@ -24,7 +24,9 @@ Please follow [these instructions](https://docs.docker.com/get-docker/) to insta
 Such a database setup is referred to as **extended 3DCityDB**.
 For this demo, it is recommended to install the 3DCityDB as a Docker container, see [here](https://github.com/IntegrCiTy/dblayer/tree/master/scripts) for instructions.
 
-**NOTE**: It is recommended to install this demo in a separate Python environment (via [conda](https://docs.conda.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or others).
+**NOTE**: This setup has been tested and verified to work with **Python 3.6.8**.
+
+**NOTE**: It is recommended to install this demo in a **separate Python environment** (via [conda](https://docs.conda.io/en/latest/), [virtualenv](https://virtualenv.pypa.io/en/latest/) or others).
 
 ## Running the demo
 

@@ -1,6 +1,7 @@
-dblayer @ git+https://github.com/IntegrCiTy/dblayer#egg=dblayer
+pandas==0.25.3
 imageio>=2.6.1
-jupyter>=1.0.0
-matplotlib>=3.1.2
+jupyter==1.0.0
+matplotlib==3.1.2
 pyshp>=2.1.0
 pytimeparse>=1.1.8
+dblayer @ git+https://github.com/IntegrCiTy/dblayer@v1.0#egg=dblayer
