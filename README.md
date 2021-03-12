@@ -17,10 +17,13 @@ This demo gives an example of how the IntegrCiTy toolchain can be used:
    pip install -r requirements.txt
    ```
 
-2. This demo uses [Docker Engine](https://docs.docker.com/engine/) for the execution of applications (3DCityDB, co-simulation).
+2. The IntegrCiTy toolchain requires [Docker Engine](https://docs.docker.com/engine/) for the definition and execution of used applications (3DCityDB, co-simulation).
 Please follow [these instructions](https://docs.docker.com/get-docker/) to install it.
 
-3. In addition, a working **PostgreSQL** implementation of the [3DCityDB](https://www.3dcitydb.org) has to be installed, including its [extensions](https://github.com/gioagu/3dcitydb_ade), the **Energy ADE**, the **Utility Network ADE**, the **Scenario ADE** and the **Simulation Package**.
+3. On top of Docker, the IntegrCiTy toolchain uses [Docker Compose](https://docs.docker.com/compose/) for the orchestration of the co-simulation.
+Please follow [these instructions](https://docs.docker.com/compose/install/) to install it.
+
+4. In addition, a working **PostgreSQL** implementation of the [3DCityDB](https://www.3dcitydb.org) has to be installed, including its [extensions](https://github.com/gioagu/3dcitydb_ade), the **Energy ADE**, the **Utility Network ADE**, the **Scenario ADE** and the **Simulation Package**.
 Such a database setup is referred to as **extended 3DCityDB**.
 For this demo, it is recommended to install the 3DCityDB as a Docker container, see [here](https://github.com/IntegrCiTy/dblayer/tree/master/scripts) for instructions.
 
