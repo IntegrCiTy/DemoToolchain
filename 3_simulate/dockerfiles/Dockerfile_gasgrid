@@ -10,6 +10,8 @@ RUN pip install git+https://github.com/IntegrCiTy/zerobnl@v1.0
 RUN pip install git+https://github.com/ewidl/PandaNGas
 RUN pip install git+https://github.com/ewidl/PandaThermal
 RUN pip install git+https://github.com/IntegrCiTy/dblayer
+RUN pip install -U fluids==0.1.75
+RUN pip install -U thermo==0.1.39
 
 WORKDIR /code
 
