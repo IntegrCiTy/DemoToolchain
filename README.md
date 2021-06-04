@@ -1,4 +1,4 @@
-# DemoToolchain
+# IntegrCiTy Data Access Layer demo application
 
 This is a demo of the [IntegrCiTy](https://www.energy.kth.se/heat-and-power-technology/current-projects/integrcity-1.924848) toolchain.
 
